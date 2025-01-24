@@ -37,6 +37,8 @@ main{
     transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px 0px #0000008f;
+    transition: width 0.5s height 0.5s;
+    transition-timing-function: ease;
 }
 #imagem{
     background: #021859 url(../imagens/pexels-cottonbro-6037391\ \(1\).jpg);
