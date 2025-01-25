@@ -28,17 +28,17 @@ main{
 }
 #login{
     background-color: #5C9DF2;
-    width: 250px;
-    height: 500px;
+    width: 330px;
+    height: 580px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px 0px #0000008f;
     transition: width 0.5s height 0.5s;
     transition-timing-function: ease;
+    transform: translate(-50%,-50%);
 }
 #imagem{
     background: #021859 url(../imagens/pexels-cottonbro-6037391\ \(1\).jpg);
@@ -51,6 +51,9 @@ main{
 #formulario{
     padding: 10px;
     display: block;
+    color: white;
+    margin: 10px 0px;
+
 }
 
 #formulario > h1{
@@ -60,4 +63,96 @@ main{
 
 #formulario > p{
     font-size: 0.8em;
+    color: black;
+}
+
+.campo{
+    background-color: #021859;
+    height: 40px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #0756F2;
+    margin: 20px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.campo > label{
+    display: none;
+}
+
+.campo span{
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+.campo > input{
+    background-color: rgb(150, 206, 255);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    border-radius: 5px;
+    height: 100%;
+    border: none;
+    padding: 4px;
+    margin: 10px 0px;
+    transform: translateY(-12px);
+}
+
+.campo > input:focus{
+    background-color: white;
+    border: 2px solid #0756F2;
+}
+
+form > label{
+    display: block;
+    color: white;
+    margin: 5px 0px;
+}
+
+
+input[type = submit]{
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   height: 40px;
+background-color: #0756F2;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin: 10px 0; /* Adiciona espaço entre o formulário e os botões */
+}
+
+input[type = submit]:hover{
+    background-color: #2980F2;
+}
+
+a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-top: 4px;
+    background-color: #0756F2;
+    border: 1 px solid #0756F2;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+
+}
+a.botao:hover{
+    background-color:#2980F2 ;
+}
+
+a.botao > i{
+    padding-left: 5px;
+    font-size: 1.3em;
+    transform: translateY(5px);
 }

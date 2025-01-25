@@ -8,6 +8,7 @@
     
     #login{
         width: 85vw;
+        height: 340px;
     }
 
     #imagem{
@@ -31,6 +32,7 @@
     
     #login{
         width: 50vw;
+        height: 400px ;
     }
 
     #imagem{
@@ -47,6 +49,7 @@
     }
     #formulario > p{
         font-size: 1.2em;
+        margin: 20px 0px;
     }
     
 }
